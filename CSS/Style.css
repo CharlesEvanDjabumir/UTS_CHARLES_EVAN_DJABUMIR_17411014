@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+nav ul {
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+    background: #27cc42;
+    display: inline-table;
+    width: 100%;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover a {
+    background: #037317;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul ul {
+    background: #085215;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: white;
+}
+
+nav ul ul li a:hover {
+    background-color: #27cc42;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+    width: 150px;
+}
+
+body {
+    background: url(../IMG/background2.jpg);
+    background-size: 100%;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2%;
+    width: 30%;
+    margin: auto;
+    height: 100%;
+    margin-left: 50%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+h1 {
+    background: rgb(32, 41, 49);
+    color: silver;
+    text-align: center;
+    padding: 2%;
+    width: 30%;
+    font-size: 200%;
+    margin: auto;
+    margin-top: 20%;
+    height: 25px;
+    margin-left: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+
+}
+
+button {
+    border: none;
+    width: 100%;
+    /* background: white; */
+    color: whitesmoke;
+    background-color: #000;
+    font-size: 30px;
+    line-height: 35px;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+
+button:hover {
+    color: whitesmoke;
+}
+
+::placeholder {
+    color: #000;
+}
+
+.reg {
+    text-align: center;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+    color: white;
+}

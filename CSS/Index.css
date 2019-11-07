@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(214, 241, 189, 0.466);
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+nav ul {
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+    background: #334d37;
+    display: inline-table;
+    width: 100%;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover a {
+    background: #282928;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul ul {
+    background: #085215;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: white;
+}
+
+nav ul ul li a:hover {
+    background-color: #676b67;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+    width: 150px;
+}
+
+.hed {
+    margin-top: 6%;
+}
+
+.prof {
+    margin-top: 13%;
+    margin-left: 46px;
+    border-radius: 100px;
+    width: 59%;
+    /* webkit-transform: rotate(30deg);
+    moz-transform: rotate(30deg);
+    ms-transform: rotate(30deg);
+    o-transform: rotate(30deg);
+    transform: rotate(30deg); */
+}
+
+.logo {
+    float: right;
+    margin-right: 4%;
+}
+
+.isi {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 30%;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.jumbotron h1 {
+    margin-left: -60%;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #000;
+}
+
+.abt {
+    margin-left: 30%;
+}
+
+.cntk {
+    margin-left: 50%;
+}
+
+.cntk h1 {
+    margin-left: -45%;
+}
+
+.search {
+    margin-top: 8%;
+    font-size: 18px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+button {
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button img {
+    width: 35%;
+}
+
+::placeholder {
+    color: #666;
+    text-align: center;
+}
+
+.header1 {
+    position: relative;
+    height: 10px;
+    margin-top: -8%;
+}
+
+.header1:hover {
+    background-color: #334d37;
+}
+
+/* 
+.isi {
+    height: 550px;
+}
+
+.jumbotron {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+} */
